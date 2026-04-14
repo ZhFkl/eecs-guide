@@ -4,7 +4,7 @@
 
 ---
 
-# *[EECS-Guide](https://eecs-guide.vercel.app/)*
+## [EECS-Guide](https://eecs-guide.vercel.app/)
 
 ## 📖 前言
 
