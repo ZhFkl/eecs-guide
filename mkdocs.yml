@@ -20,11 +20,11 @@ theme:
 # 3. 完整导航配置
 nav:
   - 🏠 首页: index.md
-  - EECS/自动化介绍: introduction.md
+  - 📖 EECS/自动化介绍: introduction.md
   - 🗺️ EECS课程路线图: roadmap.md
   - 📚 课程资源: resource.md
-  - 去向: destination.md
-  - 寄语: advice.md
+  - 🚀 去向: destination.md
+  - ⚡ 寄语: advice.md
 
 
 # 4. 必备插件
