@@ -1,0 +1,51 @@
+# 1. 网站基础信息
+site_name: 自动化与EECS学习指南
+site_description: 从大一到大四的 EECS 学习路线与资源汇总
+site_author: EECS(BIT)
+
+# 2. Material 主题配置
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+    - search.suggest
+    - navigation.sections
+    - navigation.expand
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+
+# 3. 完整导航配置
+nav:
+  - 🏠 首页: index.md
+  - EECS/自动化介绍: introduction.md
+  - 🗺️ EECS课程路线图: roadmap.md
+  - 📚 课程资源: resource.md
+  - 去向: destination.md
+  - 寄语: advice.md
+
+
+# 4. 必备插件
+plugins:
+  - search
+
+# 5. 开启 Markdown 扩展插件
+markdown_extensions:
+  - toc:
+      permalink: true
+  - meta                    # 添加这个！
+  - attr_list               # 添加这个！
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite   # 添加这个！
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js 
+  - javascripts/mermaid-init.js
